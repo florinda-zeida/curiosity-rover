@@ -1,0 +1,39 @@
+button, .btn-newsletter{
+  background-color: $button;
+  border: none;
+  color: $light;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  margin: 20px auto;
+  appearance: none;
+  -webkit-appearance: none;  
+  -moz-appearance: none;
+  
+ 
+}
+
+.btn-index_intro {
+  padding: 10px 15px;
+  margin-top: 0px;
+}
+
+button:hover, .btn-newsletter:hover {
+  background-color: $button-hover;
+
+}
+
+@media only screen and (min-width:$media-md) {
+  button, .btn-newsletter{
+    font-size: 18px;
+    padding: 10px 60px;
+  }
+  .btn-index_intro {
+    padding: 10px 35px;
+   
+  }
+}
+

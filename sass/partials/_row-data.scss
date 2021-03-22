@@ -1,0 +1,114 @@
+.row--data__gallery--item {
+  overflow: hidden;
+  /*!IMPORTANT */
+}
+
+.row-data__content {
+  max-width: 1360px;
+  width: 100%;
+  background-color: $crem;
+  margin: 0px auto;
+  justify-content: center;
+  padding: 50px 10px;
+}
+
+.row-data__text {
+  margin-top: -45px;
+  padding: 10px;
+}
+
+.row-data__content h2 {
+  margin-top: -20px;
+  border-bottom: 1px solid $dark-light;
+  padding-bottom: 5px;
+}
+.row-data__text a{
+float: right;
+margin-top: -20px;
+}
+
+/*-----------row-data-gallery-----*/
+
+#row--data__gallery {
+  max-width: 1360px;
+  margin: 0px 0px;
+  @include background('..//images/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: $light;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.row--data__gallery--item {
+  max-width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px 0px;
+}
+
+.row--data__cards {
+  max-width: 300px;
+  text-align: center;
+  padding: 10px;
+  background-color: $crem;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 10px;
+  color: $dark;   
+ 
+}
+
+.row--data__cards img {
+  display: block;
+  width: 280px;
+  height: 220px;
+}
+
+
+.details {
+  display: none;
+}
+
+.card-name {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-h3 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-status {
+  color: $more-accent;
+  letter-spacing: 2px;
+}
+
+.row--data__cards--info span {
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (min-width:$media-md-lg) {
+.row-data__text{
+  max-width: 1100px;
+  margin: 0px auto;
+}
+}

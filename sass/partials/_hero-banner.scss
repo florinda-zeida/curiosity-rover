@@ -1,0 +1,251 @@
+.banner {
+  max-width: 100%;
+  padding: 0px auto;
+  margin: 0px auto;
+  display: block;
+  justify-content: center;
+  @include background('..//images/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner:after {
+  width: 100%;
+  content: "";
+  position: absolute;
+  margin: -200px auto;
+  padding: 0px auto;
+  height: 220px;
+  background-image: $background-gradient-overlay-top;
+  -khtml-opacity: .6;
+  -moz-opacity: .6;
+  opacity: 0.6;
+  word-break: break-all;
+  word-wrap: break-word;
+
+}
+
+.banner>* {
+  z-index: 1;
+}
+
+.mars-video {
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 100px;
+
+ 
+}
+
+.banner--text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -130px;
+  text-align: center;
+  align-items: center;
+}
+
+.arrow-scroll {
+  width: 15px;
+  height: 30px;
+  text-align: center;
+  margin-top: -7px;
+}
+
+.border-white {
+  height: 2px;
+  width: 90px;
+  padding-right: 5px;
+}
+
+.banner--text__under {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner--text .h6 {
+  display: none;
+  /*!----IMPORTANT HIDE MOBIL*-----*/
+}
+.banner--text .p {
+  display: none;
+  max-width: 700px;
+  text-align: center;
+  margin-top: -10px;
+}
+@media only screen and (min-width:$media-sm-sm) {
+  .banner:after {
+      height: 230px;
+  }
+  .banner--text {
+      margin-top: -160px;
+  }
+  .h1 {
+      font-size: 20px;  
+  }
+  .h4 {
+      font-size: 18px;
+  }
+}
+@media only screen and (min-width:$media-sm) {
+  .banner:after {
+      height: 250px;
+  }
+  .banner--text {
+      margin-top: -200px;
+  }
+  .h1 {
+      font-size: 24px;  
+  }
+  .h4 {
+      font-size: 20px;
+  }
+}
+@media only screen and (min-width:$media-sm-md) {
+  .banner:after {
+      height: 250px;
+      margin: -250px 0px;
+  }
+  .banner--text {
+      margin-top: -250px;
+  }
+  .banner--text__under {
+      margin-top: -40px;
+  }
+  .h1 {
+      font-size: 26px;  
+  }
+  .h4 {
+      font-size: 22px;
+      
+  }
+  .border-white {
+      width: 130px;
+      padding-right: 7px;
+  }
+  .banner--text .p {
+      font-size: 18px;
+      display: block;
+      padding: 0px 30px;
+      margin-top: -15px;
+  }
+  .banner--text .h6 {
+      display: block;
+}
+}
+@media only screen and (min-width:$media-md) {
+  .banner:after {
+      height: 270px;
+      margin: -260px 0px;
+  }
+  .banner--text {
+      margin-top: -280px;
+  }
+  .banner--text__under {
+      margin-top: -40px;
+  }
+  .h1 {
+      font-size: 30px;  
+  }
+  .h4 {
+      font-size: 24px;
+      
+  }
+  .border-white {
+      width: 160px;
+  }
+  .banner--text .p {
+      font-size: 20px;
+  }
+  .banner--text .h6 {
+      display: block;
+}
+}
+@media only screen and (min-width:$media-md-lg) {
+  .banner:after {
+      height: 370px;
+      margin: -300px 0px;
+  }
+  .banner--text {
+      margin-top: -400px;
+  }
+  .banner--text__under {
+      margin-top: -40px;
+  }
+  .h1 {
+      font-size: 34px;  
+  }
+  .h4 {
+      font-size: 26px;
+      
+  }
+  .border-white {
+      width: 160px;
+      padding-right: 7px;
+  }
+  .banner--text .p {
+      font-size: 22px;
+     
+     
+  }
+  .banner--text .h6 {
+      font-size: 16px;
+}
+}
+@media only screen and (min-width:$media-lg-sm) {
+  .mars-video {
+      display: block;
+      width: 1150px;
+      height: auto;
+      margin: 0px auto; 
+      margin-top: 100px;  
+}
+  .banner:after {
+      display: block;
+      width: 1100px;
+      height: 450px;
+      margin: 0px auto;
+      margin-top: -430px;
+      position: inherit;
+    
+}
+.banner--text {
+  margin-top: -460px;
+}
+.banner--text__under {
+  margin-top: -80px;
+}
+.h1 {
+  font-size: 50px;  
+}
+.border-white {
+  width: 330px;
+  padding-right: 7px;
+}
+.h4 {
+  font-size: 32px;
+  
+}
+.banner--text .p {
+  font-size: 28px;
+  margin-top: 0px;
+  max-width: 900px;
+ 
+}
+.banner--text .h6 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.arrow-scroll {
+  width: 25px;
+  height: 50px;
+  text-align: center;
+  margin-top: 17px;
+}
+}

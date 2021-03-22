@@ -1,0 +1,176 @@
+html {
+  background: $dark;
+  height: 100%;
+  }
+  html, body {
+      margin: 0px auto;
+      padding: 0px auto;
+  }
+   
+  *,
+  *:after,
+  *:before {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+  }
+  body {
+      max-width: 1280px;
+      margin: 0px auto;
+      font-family: $font-family-poppins;
+      background: $dark; 
+      color: $dark;    
+  }
+  .wrapper{
+    max-width: 1280px;
+    margin: 0px auto;
+  }
+  img {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+  .logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+  input {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+  .error {
+    border: 1px solid $error;
+    color: $error;
+    background: rgb(207, 207, 207);
+    padding: 1em;
+   &:after {
+   content: "An error occurred.";
+}
+}
+.back-to-top {
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+   text-align: center;
+   cursor: pointer;
+  margin: 0px auto;
+   text-decoration: none;
+   color: $accent;
+   &:hover {
+    color: $hover-footer;
+}
+}
+.back-to-top i {
+   font-size: 25px;
+   padding-bottom: 10px;
+}
+
+.pre-loader {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.loading {
+  animation: rotation 2s infinite linear;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  margin-top: 100px;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
+}
+
+/*----------------page-next----------------*/
+
+.page-back-links {
+  visibility: hidden;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  top: 110px;
+  flex-direction: row;
+  position: fixed;
+  background-color: $light;
+  text-align: center;
+  padding: 10px 5px;
+  box-shadow: $box-shadow;
+}
+.page-back-links  a {
+  text-decoration: none;
+  padding: 0px 10px;  
+  color: $dark; 
+}
+.page-back-links  i {
+  font-size: 16px;
+  padding-right: 5px;
+}
+.page-back-links  .active {
+  color: $link;
+ 
+}
+.page-back-links  .active:hover {
+  color: $link;
+ 
+}
+.page-back-links  a:hover {
+  color: $link-hover;
+ 
+}
+
+/*----------------page-name----------------*/
+
+
+.page-name {
+  @include background('..//images/backgroud-page.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 1280px;
+  height: 200px;
+  padding-top: 230px;
+  text-align: center;
+}
+
+
+.page-name h1 {
+ margin-top: -80px;  
+
+}
+
+@media only screen and (min-width:$media-md) {
+  .page-back-links   {
+    visibility: visible;
+  }
+  .page-back-links  a {
+    font-size: 17px;
+  }
+  .page-name {
+    @include background('..//images/backgroud-page.jpg');
+    height: 300px;
+    padding-top: 300px;
+  }
+
+  .page-name h1 {
+   margin-top: -100px;  
+  
+  }
+}
+
+
+

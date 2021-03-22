@@ -1,0 +1,6 @@
+=>  Author Website   : Florinda Zeida
+
+=>  About the Website   : This is an assignment to build a microsite for SpaceX or NASA with a focus on space technology. The site needed to appeal to a specific target audience, be responsive, accessible, and easy to use. It needed to use CSS styling and JavaScript to provide a live feed of launches with dynamic data from an API, and contact form validation.
+
+=>  Introduction about the microsite   :What is it like to know more about the program of exploitation of the planet Mars. 
+You want to see more and know more about what's going on on Mars. Now you have this opportunity through this editorial to find out more about what is happening on Mars with the help of the Curiosity Rover that was launched with the Atlas Rocket in 2012 and then send information that you users can see. In this editorial you can see photos and find information about the operating program.

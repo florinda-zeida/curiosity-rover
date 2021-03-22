@@ -1,0 +1,101 @@
+#footer {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 10px auto;
+  background-image: $background-gradient;
+  padding-bottom: 20px;
+}
+.footer--content {
+  max-width: 1100px;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+.footer__item{
+  width: 300px;
+  padding: 20px auto;
+  height: auto;
+  margin: 20px auto;
+  text-align: center;
+}
+#email {
+  width: 280px;
+  border: 1px solid  $accent;
+  background: $light;
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+  font-size: 16px;
+}
+#newsletter--form input {
+  padding: 10px 50px;
+  margin: 10px;
+  padding-left: -8px;
+  border: none;
+}
+#footer h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: $light;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+#footer a {
+  color: $accent;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+#footer a i {
+  font-size: 35px;
+  padding: 0px 10px;
+}
+#footer a:hover {
+  color: $hover-footer;
+  text-decoration: underline;
+}
+.footer--links {
+  align-items: center;
+  margin: 0px 0px;
+}
+.footer--links__item {
+  max-width: 300px;
+  line-height: 2.1em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#copyright {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 10px 15px;
+  text-align: center;
+}
+#copyright p {
+  font-size: 13px;
+  word-spacing: 2px;
+  padding-top: 10px;
+  margin: 0px;
+  text-align: center;
+  color: $light;
+  margin-bottom: -10px;
+}
+#copyright a {
+  color: $link;
+  font-size: 14px;
+  margin: 0px auto;
+}
+@media only screen and (min-width:$media-md) {
+  #footer a {
+    font-size: 18px;
+  }
+
+#copyright p {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-bottom: -15px;
+}
+}
