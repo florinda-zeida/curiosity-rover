@@ -1,0 +1,8 @@
+=>  Author Website   : Florinda Zeida
+
+=>  This microsite was created for a school project and is in no affiliated with Nasa.
+
+All content and photos are from Wikipedia and Nasa.
+Design & Development by Florinda Zeida.
+
+=>  About: This is an assignment to build a microsite for SpaceX or NASA with a focus on space technology. The site needed to appeal to a specific target audience, be responsive, accessible, and easy to use. It needed to use CSS styling and JavaScript to provide a live feed of launches with dynamic data from an API, and contact form validation.
